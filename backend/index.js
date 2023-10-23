@@ -19,4 +19,4 @@ app.use(cookieParser());
 
 app.use("/", express.static(join(__dirname, "public")));
 
-app.listen(PORT, () => console.log("server is listening on ${PORT} "));
+app.listen(PORT, () => console.log(`server is listening on ${PORT}`));
